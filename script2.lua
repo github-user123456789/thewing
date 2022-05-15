@@ -448,23 +448,6 @@ cr({"Part", model}, {
 	BrickColor = BC("Lily white"),
 });
 ---------------------
--- ENTRY
-cr({"Part", model}, {
-	Size = V3(10, 4, 1),
-	Position = V3(-145.99990844726562, 4.700000762939453, -69.5008544921875),
-	Material = "Granite",
-	BrickColor = BC("Fossil"),
-}); cr({"Part", model}, {
-	Size = V3(26, 6, 1),
-	Position = V3(-137.99990844726562, 9.700000762939453, -69.50074005126953),
-	Material = "Granite",
-	BrickColor = BC("Fossil"),
-}); cr({"Part", model}, {
-	Size = V3(11, 4, 1),
-	Position = V3(-130.4993133544922, 4.700000762939453, -69.50332641601562),
-	Material = "Granite",
-	BrickColor = BC("Fossil"),
-});
 end
 
 return runner
