@@ -466,3 +466,5 @@ cr({"Part", model}, {
 	BrickColor = BC("Fossil"),
 });
 end
+
+return runner
