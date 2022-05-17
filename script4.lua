@@ -1,26 +1,7 @@
 
 local function runner(cr, V3, BC, model, ylevel)
+-- ALL NON LILYWHITEMARBLE WALLS
 cr({"Part", model}, {
-	Size = V3(1, 14, 24),
-	Position = V3(-82.50004577636719, 7.700027942657471, -173.00082397460938),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
-}); cr({"Part", model}, {
-	Size = V3(10, 14, 1),
-	Position = V3(-109.99999237060547, 7.700000762939453, -207.50006103515625),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
-}); cr({"Part", model}, {
-	Size = V3(10, 14, 1),
-	Position = V3(-109.99993896484375, 7.700000762939453, -190.50047302246094),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
-}); cr({"Part", model}, {
-	Size = V3(1, 14, 24),
-	Position = V3(-99.49993896484375, 7.700000762939453, -173.000732421875),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
-}); cr({"Part", model}, {
 	Size = V3(1, 14, 16),
 	Position = V3(-113.49992370605469, 7.700000762939453, -153.00123596191406),
 	Material = "Slate",
@@ -51,11 +32,6 @@ cr({"Part", model}, {
 	Material = "Pebble",
 	BrickColor = BC("Mid gray"),
 }); cr({"Part", model}, {
-	Size = V3(19, 14, 23),
-	Position = V3(-123.49992370605469, 7.700000762939453, -156.5010986328125),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
-}); cr({"Part", model}, {
 	Size = V3(18, 14, 1),
 	Position = V3(-123.99993896484375, 7.700000762939453, -210.500244140625),
 	Material = "Pebble",
@@ -78,26 +54,6 @@ cr({"Part", model}, {
 	Size = V3(11, 14, 1),
 	Position = V3(-127.49993896484375, 7.700000762939453, -126.50188446044922),
 	Material = "Concrete",
-}); cr({"Part", model}, {
-	Size = V3(5, 14, 21),
-	Position = V3(-151.49990844726562, 7.700000762939453, -137.50157165527344),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
-}); cr({"Part", model}, {
-	Size = V3(19, 14, 2),
-	Position = V3(-123.49993896484375, 7.700000762939453, -128.00186157226562),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
-}); cr({"Part", model}, {
-	Size = V3(1, 14, 5),
-	Position = V3(-132.49993896484375, 7.700009822845459, -213.50006103515625),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
-}); cr({"Part", model}, {
-	Size = V3(1, 14, 5),
-	Position = V3(-149.49993896484375, 7.700000762939453, -213.50033569335938),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
 }); cr({"Part", model}, {
 	Size = V3(1, 14, 12),
 	Position = V3(-113.49993896484375, 7.700000762939453, -123.00210571289062),
@@ -129,11 +85,6 @@ cr({"Part", model}, {
 	Material = "Pebble",
 	BrickColor = BC("Mid gray"),
 }); cr({"Part", model}, {
-	Size = V3(3, 14, 9),
-	Position = V3(-155.49990844726562, 7.700000762939453, -115.50225067138672),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
-}); cr({"Part", model}, {
 	Size = V3(1, 14, 15),
 	Position = V3(-153.4999237060547, 7.700000762939453, -118.501953125),
 	Material = "Concrete",
@@ -163,11 +114,6 @@ cr({"Part", model}, {
 	Material = "CorrodedMetal",
 	BrickColor = BC("Dusty Rose"),
 }); cr({"Part", model}, {
-	Size = V3(3, 14, 9),
-	Position = V3(-174.49990844726562, 7.700000762939453, -115.5022964477539),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
-}); cr({"Part", model}, {
 	Size = V3(1, 14, 7),
 	Position = V3(-176.49986267089844, 7.700000762939453, -114.50254821777344),
 	Material = "SmoothPlastic",
@@ -178,16 +124,6 @@ cr({"Part", model}, {
 	Material = "SmoothPlastic",
 	BrickColor = BC("Light blue"),
 }); cr({"Part", model}, {
-	Size = V3(4, 14, 5),
-	Position = V3(-179.9998779296875, 7.700000762939453, -121.50232696533203),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
-}); cr({"Part", model}, {
-	Size = V3(4, 14, 4),
-	Position = V3(-199.99989318847656, 7.699991226196289, -121.00194549560547),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
-}); cr({"Part", model}, {
 	Size = V3(4, 14, 1),
 	Position = V3(-199.99986267089844, 7.700000762939453, -118.50210571289062),
 	Material = "SmoothPlastic",
@@ -196,61 +132,6 @@ cr({"Part", model}, {
 	Size = V3(1, 14, 17),
 	Position = V3(-121.49993896484375, 7.700000762939453, -118.50213623046875),
 	Material = "Concrete",
-}); cr({"Part", model}, {
-	Size = V3(22, 14, 1),
-	Position = V3(-109.99993896484375, 7.700000762939453, -110.50235748291016),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
-}); cr({"Part", model}, {
-	Size = V3(28, 14, 4),
-	Position = V3(-167.99989318847656, 7.700000762939453, -146.00135803222656),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
-}); cr({"Part", model}, {
-	Size = V3(4, 14, 4),
-	Position = V3(-179.99989318847656, 7.700000762939453, -142.00143432617188),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
-}); cr({"Part", model}, {
-	Size = V3(29, 14, 4),
-	Position = V3(-163.49990844726562, 7.700000762939453, -166.00088500976562),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
-}); cr({"Part", model}, {
-	Size = V3(2, 14, 6),
-	Position = V3(-176.99989318847656, 7.700000762939453, -171.00079345703125),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
-}); cr({"Part", model}, {
-	Size = V3(8, 14, 10),
-	Position = V3(-197.99989318847656, 7.700000762939453, -169.0008544921875),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
-}); cr({"Part", model}, {
-	Size = V3(4, 14, 9),
-	Position = V3(-199.99989318847656, 7.700000762939453, -143.50140380859375),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
-}); cr({"Part", model}, {
-	Size = V3(8, 14, 1),
-	Position = V3(-162.99990844726562, 7.700000762939453, -182.50054931640625),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
-}); cr({"Part", model}, {
-	Size = V3(8, 14, 1),
-	Position = V3(-162.9999237060547, 7.700000762939453, -199.50045776367188),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
-}); cr({"Part", model}, {
-	Size = V3(1, 14, 5),
-	Position = V3(-178.49990844726562, 7.700000762939453, -213.50033569335938),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
-}); cr({"Part", model}, {
-	Size = V3(1, 14, 5),
-	Position = V3(-195.49990844726562, 7.700000762939453, -213.50018310546875),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
 }); cr({"Part", model}, {
 	Size = V3(24, 14, 1),
 	Position = V3(-86.99995422363281, 7.700009822845459, -114.50245666503906),
@@ -332,11 +213,6 @@ cr({"Part", model}, {
 	Material = "Neon",
 	BrickColor = BC("Institutional white"),
 }); cr({"Part", model}, {
-	Size = V3(2, 14, 7),
-	Position = V3(-154.99990844726562, 7.700000762939453, -91.5028305053711),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
-}); cr({"Part", model}, {
 	Size = V3(1, 14, 6),
 	Position = V3(-153.49990844726562, 7.6999969482421875, -92.00282287597656),
 	Material = "Concrete",
@@ -348,11 +224,6 @@ cr({"Part", model}, {
 	Size = V3(8, 14, 1),
 	Position = V3(-125.99993133544922, 7.700000762939453, -89.50270080566406),
 	Material = "Concrete",
-}); cr({"Part", model}, {
-	Size = V3(4, 14, 7),
-	Position = V3(-173.99990844726562, 7.700000762939453, -91.50287628173828),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
 }); cr({"Part", model}, {
 	Size = V3(1, 14, 7),
 	Position = V3(-176.49990844726562, 7.700000762939453, -91.50297546386719),
@@ -368,45 +239,10 @@ cr({"Part", model}, {
 	Position = V3(-121.49993896484375, 7.700000762939453, -91.50275421142578),
 	Material = "Concrete",
 }); cr({"Part", model}, {
-	Size = V3(3, 14, 6),
-	Position = V3(-119.49993896484375, 7.700000762939453, -91.00312805175781),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
-}); cr({"Part", model}, {
-	Size = V3(3, 14, 6),
-	Position = V3(-100.49994659423828, 7.700000762939453, -91.00257110595703),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
-}); cr({"Part", model}, {
 	Size = V3(24, 14, 1),
 	Position = V3(-86.99995422363281, 7.700000762939453, -89.5028076171875),
 	Material = "Concrete",
 	BrickColor = BC("Really red"),
-}); cr({"Part", model}, {
-	Size = V3(4, 14, 1),
-	Position = V3(-127.99993133544922, 7.700000762939453, -88.50270080566406),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
-}); cr({"Part", model}, {
-	Size = V3(4, 14, 1),
-	Position = V3(-147.99990844726562, 7.700000762939453, -88.50284576416016),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
-}); cr({"Part", model}, {
-	Size = V3(1, 14, 17),
-	Position = V3(-149.49990844726562, 7.700000762939453, -79.50318908691406),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
-}); cr({"Part", model}, {
-	Size = V3(1, 14, 17),
-	Position = V3(-126.49993896484375, 7.700000762939453, -79.50357055664062),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
-}); cr({"Part", model}, {
-	Size = V3(9, 14, 1),
-	Position = V3(-145.49990844726562, 7.700040817260742, -70.50466918945312),
-	Material = "Marble",
-	BrickColor = BC("Lily white"),
 });
 end
 
