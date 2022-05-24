@@ -26,11 +26,13 @@ cr({"Part", model}, {
 	Position = V3(-201.4998779296875, 2.200037956237793, -99.00257110595703),
 	Material = "SmoothPlastic",
 	BrickColor = BC("Light blue"),
+	Orientation = V3(0, 90, 0)
 }); cr({"Part", model}, {
 	Size = V3(22, 4, 1),
 	Position = V3(-201.49989318847656, 12.699965476989746, -99.00177001953125),
 	Material = "SmoothPlastic",
 	BrickColor = BC("Light blue"),
+	Orientation = V3(0, 90, 0)
 }); cr({"Part", model}, {
 	Size = V3(1, 7, 1),
 	Position = V3(-76.49996185302734, 7.700004577636719, -95.00251770019531),
