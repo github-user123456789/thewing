@@ -44,6 +44,18 @@ cr({"Part", model}, {
 	Material = "Plastic",
 	BrickColor = BC("Black"),
 });
+-- MORE METAL WALLS
+cr({"Part", model}, {
+	Size = V3(8, 14, 1),
+	Position = V3(-121.99993896484375, 7.700000762939453, -87.50286865234375),
+	Material = "DiamondPlate",
+	BrickColor = BC("Dark stone grey"),
+}); cr({"Part", model}, {
+	Size = V3(1, 14, 17),
+	Position = V3(-125.49993896484375, 7.700040817260742, -78.50411987304688),
+	Material = "DiamondPlate",
+	BrickColor = BC("Dark stone grey"),
+});
 end
 
 return runner
